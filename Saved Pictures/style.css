@@ -1,0 +1,70 @@
+body{
+    background-color: white;
+}
+.animation{
+    animation: pointdown 10000ms infinite;
+}
+
+@keyframes pointdown {
+    0%{
+        transform: translateY(0);
+    }
+
+    100%{
+        transform: translateY(1600px);
+    }
+    
+}
+
+.table{
+    background-color: lightgreen;
+}
+
+.table, th, td,   tr{
+    border: 2px solid brown;
+    
+}
+
+.menu-panel img{
+    display: inline;
+    width: 20px;
+    border-radius: 10px;
+}
+
+.menu-panel {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    display: inline-flex;
+}
+
+a {
+    text-decoration: none;
+    background-color: white;
+    width: 60px;
+    border: 2px solid;
+    margin-left: 0;
+}
+
+.menu-bar {
+    margin-left: auto;
+}
+
+.post{
+    background-color: lightgreen;
+}
+
+
+
+.img{
+    width: 200px;
+    display: inline;
+}
